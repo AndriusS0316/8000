@@ -1,4 +1,4 @@
-// septinta uzduotis
+
 
 let rezultatas = 8000;
 
