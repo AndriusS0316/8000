@@ -2,6 +2,9 @@
 
 let rezultatas = 8000;
 
+
+
+
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
 
@@ -17,33 +20,33 @@ const game2DOM = document.querySelector(".game2");
 const input1DOM = document.querySelector(".input1");
 const input2DOM = document.querySelector(".input2");
 
-function minus1Click() {
-    rezultatas = rezultatas - input1DOM.innerText;
-    number1DOM.innerText = rezultatas;
+// function minus1Click() {
+//     rezultatas = rezultatas - input1DOM.innerText;
+//     number1DOM.innerText = rezultatas;
 
     // galima buvo rasyti = number1DOM.innerText = --rezultatas
-}
+// }
 
-function minus2Click() {
-    rezultatas = rezultatas - input2DOM.innerText;
-    number2DOM.innerText = rezultatas;
+// function minus2Click() {
+//     rezultatas = rezultatas - input2DOM.innerText;
+//     number2DOM.innerText = rezultatas;
 
     // galima buvo rasyti = number2DOM.innerText = --rezultatas
-}
+// }
 
-function plus1Cick() {
-    rezultatas = rezultatas + input1DOM.innerText;
-    number1DOM.innerText = rezultatas;
-
-    // galima buvo rasyti = numberDOM.innerText = ++rezultatas
-}
-
-function plus2Cick() {
-    rezultatas = rezultatas + input2DOM.innerText;
-    number2DOM.innerText = rezultatas;
+// function plus1Cick() {
+//     rezultatas = rezultatas + input1DOM.innerText;
+//     number1DOM.innerText = rezultatas;
 
     // galima buvo rasyti = numberDOM.innerText = ++rezultatas
-}
+// }
+
+// function plus2Cick() {
+//     rezultatas = rezultatas + input2DOM.innerText;
+//     number2DOM.innerText = rezultatas;
+
+    // galima buvo rasyti = numberDOM.innerText = ++rezultatas
+// }
 
 function game1Click() {
     rezultatas = 8000;
@@ -54,6 +57,22 @@ function game2Click() {
     rezultatas = 8000;
     number2DOM.innerText = rezultatas;
 }
+
+
+function calc() {
+    let data1 = document.getElementById('data1').value;
+    let data2 = document.getElementById('data2').value;
+    let start1 = document.getElementById('start1').value;
+    let start2 = document.getElementById('start2').value;
+    let oper = document.getElementById('plus1').value;
+    let 
+
+
+    if () {
+
+    }
+}
+
 
 minus1DOM.addEventListener('click', minus1Click);
 minus2DOM.addEventListener('click', minus2Click);
