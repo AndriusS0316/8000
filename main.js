@@ -64,11 +64,14 @@ function calc() {
     let data2 = document.getElementById('data2').value;
     let start1 = document.getElementById('start1').value;
     let start2 = document.getElementById('start2').value;
-    let oper = document.getElementById('plus1').value;
-    let 
+    
+    let plius1 = document.getElementById('plus1').value;
+    let plius2 = document.getElementById('plus2').value;
+    let minus1 = document.getElementById('minus1').value;
+    let minus2 = document.getElementById('minus2').value;
 
 
-    if () {
+    if ( === ) {
 
     }
 }
