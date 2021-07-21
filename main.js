@@ -64,15 +64,21 @@ function calc() {
     let data2 = document.getElementById('data2').value;
     let start1 = document.getElementById('start1').value;
     let start2 = document.getElementById('start2').value;
-    
-    let plius1 = document.getElementById('plus1').value;
-    let plius2 = document.getElementById('plus2').value;
+
+    let plus1 = document.getElementById('plus1').value;
+    let plus2 = document.getElementById('plus2').value;
     let minus1 = document.getElementById('minus1').value;
     let minus2 = document.getElementById('minus2').value;
 
 
-    if ( === ) {
-
+    if (plus1 === '+') {
+        number1DOM = document.getElementById('data1').value = number1DOM + data1;
+    } else if (plus2 === '+') {
+        number2DOM = document.getElementById('data2').value = number2DOM + data2;
+    } else if (minus === '-') {
+        number1DOM = document.getElementById('data1').value = number1DOM + data1;
+    } else if (minus === '-') {
+        number2DOM = document.getElementById('data2').value = number2DOM + data2;
     }
 }
 
