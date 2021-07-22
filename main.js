@@ -1,6 +1,6 @@
 
 
-
+let rezultatas = 7000;
 
 let data1 = document.querySelector('data1').innerText;
 let data2 = document.querySelector('data1').innerText;
