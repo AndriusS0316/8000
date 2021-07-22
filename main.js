@@ -1,24 +1,6 @@
 
 
-let rezultatas = 8000;
 
-let data1 = document.querySelector('data1').innerText;
-let data2 = document.querySelector('data1').innerText;
-
-const minus1DOM = document.querySelector(".minus1");
-const minus2DOM = document.querySelector(".minus2");
-
-const plus1DOM = document.querySelector(".plus1");
-const plus2DOM = document.querySelector(".plus2");
-
-const number1DOM = document.querySelector(".number1");
-const number2DOM = document.querySelector(".number2");
-
-const game1DOM = document.querySelector(".game1");
-const game2DOM = document.querySelector(".game2");
-
-const input1DOM = document.querySelector(".input1");
-const input2DOM = document.querySelector(".input2");
 
 function minus1Click() {
     rezultatas = rezultatas - data1;
