@@ -98,4 +98,4 @@ game2DOM.addEventListener('click', game2Click);
 //     if (plus1 === '+') {
 //         number1DOM = document.getElementById('data1').value = number1DOM + data1;
 //     } else if (plus2 === '+') {
-//         number2DOM = document.getElementById('data2').value = number2DOM + data2;
+//         numbe
