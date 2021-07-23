@@ -1,9 +1,6 @@
 
 
-let rezultatas = 8000;
 
-let data1 = document.querySelector('data1').innerText;
-let data2 = document.querySelector('data1').innerText;
 
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
