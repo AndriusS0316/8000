@@ -10,6 +10,9 @@ let data22 = document.querySelector('#data22');
 let data111 = document.querySelector('#data111');
 let data222 = document.querySelector('#data222');
 
+let coin11 = document.querySelector('#coin11');
+let coin22 = document.querySelector('#coin22');
+
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
 
@@ -24,6 +27,9 @@ const game2DOM = document.querySelector(".game2");
 
 const input1DOM = document.querySelector(".input1");
 const input2DOM = document.querySelector(".input2");
+
+const coin1 = document.querySelector(".coin1");
+const coin2 = document.querySelector(".coin2");
 
 number1DOM.innerText = rezultatas1;
 number2DOM.innerText = rezultatas2;
@@ -88,6 +94,22 @@ function game2Click() {
     data222.value = '';
 }
 
+function coin1Click() {
+    if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
+        console.log('herbas');
+    } else {
+        console.log('skaicius');
+    }
+} 
+
+function coin2Click() {
+    if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
+        console.log('herbas');
+    } else {
+        console.log('skaicius');
+    }
+}
+
 
 
 minus1DOM.addEventListener('click', minus1Click);
@@ -99,6 +121,8 @@ plus2DOM.addEventListener('click', plus2Cick);
 game1DOM.addEventListener('click', game1Click);
 game2DOM.addEventListener('click', game2Click);
 
+coin1.addEventListener('click', coin1Click);
+coin2.addEventListener('click', coin2Click);
 
 
 
