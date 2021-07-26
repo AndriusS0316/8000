@@ -13,6 +13,9 @@ let data222 = document.querySelector('#data222');
 let coin11 = document.querySelector('#coin11');
 let coin22 = document.querySelector('#coin22');
 
+let dice11 = document.querySelector('#kauliukas11');
+let dice22 = document.querySelector('#kauliukas22');
+
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
 
@@ -30,6 +33,9 @@ const input2DOM = document.querySelector(".input2");
 
 const coin1 = document.querySelector(".coin1");
 const coin2 = document.querySelector(".coin2");
+
+const dice1 = document.querySelector(".kauliukas1");
+const dice2 = document.querySelector(".kauliukas2");
 
 number1DOM.innerText = rezultatas1;
 number2DOM.innerText = rezultatas2;
@@ -110,6 +116,38 @@ function coin2Click() {
     }
 }
 
+function dice1Click() {
+    if (Math.floor(Math.random() * 6 + 1) == 1) {
+        console.log('vienas');
+    } else if (Math.floor(Math.random() * 6 + 1) == 2) {
+        console.log('du');
+    } else if (Math.floor(Math.random() * 6 + 1) == 3) {
+        console.log('trys');
+    } else if (Math.floor(Math.random() * 6 + 1) == 4) {
+        console.log('keturi');
+    } else if (Math.floor(Math.random() * 6 + 1) == 5) {
+        console.log('penki');
+    } else if (Math.floor(Math.random() * 6 + 1) == 6) {
+        console.log('sesi');
+    }
+}
+
+function dice2Click() {
+    if (Math.floor(Math.random() * 6 + 1) == 1) {
+        console.log('vienas');
+    } else if (Math.floor(Math.random() * 6 + 1) == 2) {
+        console.log('du');
+    } else if (Math.floor(Math.random() * 6 + 1) == 3) {
+        console.log('trys');
+    } else if (Math.floor(Math.random() * 6 + 1) == 4) {
+        console.log('keturi');
+    } else if (Math.floor(Math.random() * 6 + 1) == 5) {
+        console.log('penki');
+    } else if (Math.floor(Math.random() * 6 + 1) == 6) {
+        console.log('sesi');
+    }
+}
+
 
 
 minus1DOM.addEventListener('click', minus1Click);
@@ -123,6 +161,9 @@ game2DOM.addEventListener('click', game2Click);
 
 coin1.addEventListener('click', coin1Click);
 coin2.addEventListener('click', coin2Click);
+
+dice1.addEventListener('click', dice1Click);
+dice2.addEventListener('click', dice2Click);
 
 
 
