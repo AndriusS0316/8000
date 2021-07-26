@@ -100,3 +100,20 @@
     box-shadow: 0 4px 10px #0002;
     text-align: center;
 }
+
+.coin11 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.coin22 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 100%;
+    right: 16%;
+    transform: translate(-50%, -50%);
+}
