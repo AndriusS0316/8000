@@ -7,6 +7,8 @@ let data1 = document.querySelector('#data1');
 let data2 = document.querySelector('#data2');
 let data11 = document.querySelector('#data11');
 let data22 = document.querySelector('#data22');
+let data111 = document.querySelector('#data111');
+let data222 = document.querySelector('#data222');
 
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
@@ -75,6 +77,7 @@ function game1Click() {
     number1DOM.innerText = rezultatas1;
 
     data11.value = '';
+    data111.value = '';
 }
 
 function game2Click() {
@@ -82,6 +85,7 @@ function game2Click() {
     number2DOM.innerText = rezultatas2;
 
     data22.value = '';
+    data222.value = '';
 }
 
 

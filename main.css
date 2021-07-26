@@ -25,3 +25,42 @@
     height: 5%;
     width: 20%;
 }
+
+
+.input111 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.input222 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 27%;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 100px;
+}
+#data111 {
+    height: 5%;
+    width: 20%;
+}
+#data222 {
+    height: 5%;
+    width: 20%;
+}
+
+
+#data1 {
+    height: 5%;
+    width: 20%;
+}
+#data2 {
+    height: 5%;
+    width: 20%;
+}
