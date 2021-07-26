@@ -1,9 +1,10 @@
 
 
-let rezultatas = 8000;
+let rezultatas1 = 8000;
+let rezultatas2 = 8000;
 
-let data1 = document.querySelector('data1').innerText;
-let data2 = document.querySelector('data1').innerText;
+let data1 = document.querySelector('#data1');
+let data2 = document.querySelector('#data2');
 
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
@@ -20,42 +21,57 @@ const game2DOM = document.querySelector(".game2");
 const input1DOM = document.querySelector(".input1");
 const input2DOM = document.querySelector(".input2");
 
-function minus1Click() {
-    rezultatas = rezultatas - data1;
-    number1DOM.innerText = rezultatas;
+number1DOM.innerText = rezultatas1;
+number2DOM.innerText = rezultatas2;
 
-    // galima buvo rasyti = number1DOM.innerText = --rezultatas
+function minus1Click() {
+    if (data1.value === '') {
+        return false;
+    }
+    rezultatas1 = rezultatas1 - parseInt(data1.value);
+    number1DOM.innerText = rezultatas1;
+
+    data1.value = '';
 }
 
 function minus2Click() {
-    rezultatas = rezultatas - data2;
-    number2DOM.innerText = rezultatas;
+    if (data2.value === '') {
+        return false;
+    }
+    rezultatas2 = rezultatas2 - parseInt(data2.value);
+    number2DOM.innerText = rezultatas2;
 
-    // galima buvo rasyti = number2DOM.innerText = --rezultatas
+    data2.value = '';
 }
 
 function plus1Cick() {
-    rezultatas = rezultatas + data1;
-    number1DOM.innerText = rezultatas;
+    if (data1.value === '') {
+        return false;
+    }
+    rezultatas1 = rezultatas1 + parseInt(data1.value);
+    number1DOM.innerText = rezultatas1;
 
-    // galima buvo rasyti = numberDOM.innerText = ++rezultatas
+    data1.value = '';
 }
 
 function plus2Cick() {
-    rezultatas = rezultatas + data2;
-    number2DOM.innerText = rezultatas;
+    if (data2.value === '') {
+        return false;
+    }
+    rezultatas2 = rezultatas2 + parseInt(data2.value);
+    number2DOM.innerText = rezultatas2;
 
-    // galima buvo rasyti = numberDOM.innerText = ++rezultatas
+    data2.value = '';
 }
 
 function game1Click() {
-    rezultatas = 8000;
-    number1DOM.innerText = rezultatas;
+    rezultatas1 = 8000;
+    number1DOM.innerText = rezultatas1;
 }
 
 function game2Click() {
-    rezultatas = 8000;
-    number2DOM.innerText = rezultatas;
+    rezultatas2 = 8000;
+    number2DOM.innerText = rezultatas2;
 }
 
 
