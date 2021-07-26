@@ -1,0 +1,27 @@
+.input11 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 68%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.input22 {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 68%;
+    right: 9%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 100px;
+}
+#data11 {
+    height: 5%;
+    width: 20%;
+}
+#data22 {
+    height: 5%;
+    width: 20%;
+}

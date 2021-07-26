@@ -5,6 +5,8 @@ let rezultatas2 = 8000;
 
 let data1 = document.querySelector('#data1');
 let data2 = document.querySelector('#data2');
+let data11 = document.querySelector('#data11');
+let data22 = document.querySelector('#data22');
 
 const minus1DOM = document.querySelector(".minus1");
 const minus2DOM = document.querySelector(".minus2");
@@ -28,6 +30,7 @@ function minus1Click() {
     if (data1.value === '') {
         return false;
     }
+    data11.value = 'Is ' + rezultatas1 + ' buvo atimta ' + parseInt(data1.value);
     rezultatas1 = rezultatas1 - parseInt(data1.value);
     number1DOM.innerText = rezultatas1;
 
@@ -38,6 +41,7 @@ function minus2Click() {
     if (data2.value === '') {
         return false;
     }
+    data22.value = 'Is ' + rezultatas2 + ' buvo atimta ' + parseInt(data2.value);
     rezultatas2 = rezultatas2 - parseInt(data2.value);
     number2DOM.innerText = rezultatas2;
 
@@ -48,6 +52,7 @@ function plus1Cick() {
     if (data1.value === '') {
         return false;
     }
+    data11.value = 'Prie ' + rezultatas1 + ' buvo prideta ' + parseInt(data1.value);
     rezultatas1 = rezultatas1 + parseInt(data1.value);
     number1DOM.innerText = rezultatas1;
 
@@ -58,6 +63,7 @@ function plus2Cick() {
     if (data2.value === '') {
         return false;
     }
+    data22.value = 'Prie ' + rezultatas2 + ' buvo prideta ' + parseInt(data2.value);
     rezultatas2 = rezultatas2 + parseInt(data2.value);
     number2DOM.innerText = rezultatas2;
 
@@ -67,11 +73,15 @@ function plus2Cick() {
 function game1Click() {
     rezultatas1 = 8000;
     number1DOM.innerText = rezultatas1;
+
+    data11.value = '';
 }
 
 function game2Click() {
     rezultatas2 = 8000;
     number2DOM.innerText = rezultatas2;
+
+    data22.value = '';
 }
 
 
