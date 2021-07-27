@@ -102,32 +102,42 @@ function game2Click() {
 
 function coin1Click() {
     if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
+        data11.value = 'Metus moneta, iskrito herbas';
         console.log('herbas');
     } else {
+        data11.value = 'Metus moneta, iskrito skaicius';
         console.log('skaicius');
     }
 } 
 
 function coin2Click() {
     if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
+        data22.value = 'Metus moneta, iskrito herbas';
         console.log('herbas');
     } else {
+        data22.value = 'Metus moneta, iskrito skaicius';
         console.log('skaicius');
     }
 }
 
 function dice1Click() {
     if (Math.floor(Math.random() * 6 + 1) == 1) {
+        data11.value = 'Ridenus kauliuka, issirito vienas';
         console.log('vienas');
     } else if (Math.floor(Math.random() * 6 + 1) == 2) {
+        data11.value = 'Ridenus kauliuka, issirito du';
         console.log('du');
     } else if (Math.floor(Math.random() * 6 + 1) == 3) {
+        data11.value = 'Ridenus kauliuka, issirito trys';
         console.log('trys');
     } else if (Math.floor(Math.random() * 6 + 1) == 4) {
+        data11.value = 'Ridenus kauliuka, issirito keturi';
         console.log('keturi');
     } else if (Math.floor(Math.random() * 6 + 1) == 5) {
+        data11.value = 'Ridenus kauliuka, issirito penki';
         console.log('penki');
     } else if (Math.floor(Math.random() * 6 + 1) == 6) {
+        data11.value = 'Ridenus kauliuka, issirito sesi';
         console.log('sesi');
     }
 }
