@@ -144,16 +144,22 @@ function dice1Click() {
 
 function dice2Click() {
     if (Math.floor(Math.random() * 6 + 1) == 1) {
+        data22.value = 'Ridenus kauliuka, issirito vienas';
         console.log('vienas');
     } else if (Math.floor(Math.random() * 6 + 1) == 2) {
+        data22.value = 'Ridenus kauliuka, issirito du';
         console.log('du');
     } else if (Math.floor(Math.random() * 6 + 1) == 3) {
+        data22.value = 'Ridenus kauliuka, issirito trys';
         console.log('trys');
     } else if (Math.floor(Math.random() * 6 + 1) == 4) {
+        data22.value = 'Ridenus kauliuka, issirito keturi';
         console.log('keturi');
     } else if (Math.floor(Math.random() * 6 + 1) == 5) {
+        data22.value = 'Ridenus kauliuka, issirito penki';
         console.log('penki');
     } else if (Math.floor(Math.random() * 6 + 1) == 6) {
+        data22.value = 'Ridenus kauliuka, issirito sesi';
         console.log('sesi');
     }
 }
