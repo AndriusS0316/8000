@@ -55,8 +55,10 @@ function minus1Click() {
 
     data1.value = '';
 
-    if (rezultatas1 <= 0) {
-        alert("Laimejo " + data222.value)
+    if (rezultatas1 <= 0 && data222.value !== '') {
+        alert("Laimejo: " + data222.value)
+    } else if (data222.value === '') {
+        alert("Laimejo: antrasis zaidejas")
     }
 }
 
@@ -70,8 +72,10 @@ function minus2Click() {
 
     data2.value = '';
 
-    if (rezultatas2 <= 0) {
+    if (rezultatas2 <= 0 && data111.value !== '') {
         alert("Laimejo " + data111.value)
+    } else if (data111.value === ''){
+        alert("Laimejo: pirmasis zaidejas")
     }
 }
 
