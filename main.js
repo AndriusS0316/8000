@@ -54,6 +54,10 @@ function minus1Click() {
     number1DOM.innerText = rezultatas1;
 
     data1.value = '';
+
+    if (rezultatas1 <= 0) {
+        alert("Laimejo " + data222.value)
+    }
 }
 
 function minus2Click() {
@@ -65,6 +69,10 @@ function minus2Click() {
     number2DOM.innerText = rezultatas2;
 
     data2.value = '';
+
+    if (rezultatas2 <= 0) {
+        alert("Laimejo " + data111.value)
+    }
 }
 
 function plus1Cick() {
