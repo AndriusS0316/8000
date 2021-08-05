@@ -171,8 +171,6 @@ function coin2Click() {
             document.getElementById("coin22").src="./IMG/coin/skaicius.png";
             data22.value = 'Metus moneta, iskrito skaicius';
         }, 1000);
-        
-
     }
 }
 
