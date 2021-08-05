@@ -57,9 +57,9 @@ function minus1Click() {
 
     if (rezultatas1 <= 0 && data222.value !== '') {
         alert("Laimejo: " + data222.value)
-    } else if (data222.value === '') {
-        alert("Laimejo: antrasis zaidejas")
-    }
+    } //else if (data222.value === '') {
+        //alert("Laimejo: antrasis zaidejas")
+    //} 
 }
 
 function minus2Click() {
@@ -74,9 +74,9 @@ function minus2Click() {
 
     if (rezultatas2 <= 0 && data111.value !== '') {
         alert("Laimejo " + data111.value)
-    } else if (data111.value === ''){
-        alert("Laimejo: pirmasis zaidejas")
-    }
+    } //else if (data111.value === ''){
+        //alert("Laimejo: pirmasis zaidejas")
+    //}
 }
 
 function plus1Cick() {
@@ -125,25 +125,54 @@ function game2Click() {
 
 function coin1Click() {
     if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
-        data11.value = 'Metus moneta, iskrito herbas';
+        
         console.log('herbas');
-        document.getElementById("coin11").src="./IMG/coin/herbas.png";
+        
+        data11.value = '';
+        document.getElementById("coin11").src="./IMG/coin/loading.png";
+
+        setTimeout(function(){
+            document.getElementById("coin11").src="./IMG/coin/herbas.png"; 
+            data11.value = 'Metus moneta, iskrito herbas';
+        }, 1000);
+        
     } else {
-        data11.value = 'Metus moneta, iskrito skaicius';
         console.log('skaicius');
-        document.getElementById("coin11").src="./IMG/coin/skaicius.png";
+
+        data11.value = '';
+        document.getElementById("coin11").src="./IMG/coin/loading.png";
+
+        setTimeout(function(){
+            document.getElementById("coin11").src="./IMG/coin/skaicius.png"; 
+            data11.value = 'Metus moneta, iskrito skaicius';
+        }, 1000);
     }
 } 
 
 function coin2Click() {
     if (Math.floor(Math.random() * 10 + 1) % 2 != 0) {
-        data22.value = 'Metus moneta, iskrito herbas';
+
         console.log('herbas');
-        document.getElementById("coin22").src="./IMG/coin/herbas.png";
+
+        data22.value = '';
+        document.getElementById("coin22").src="./IMG/coin/loading.png";
+
+        setTimeout(function(){
+            document.getElementById("coin22").src="./IMG/coin/herbas.png";
+            data22.value = 'Metus moneta, iskrito herbas';
+        }, 1000);
     } else {
-        data22.value = 'Metus moneta, iskrito skaicius';
         console.log('skaicius');
-        document.getElementById("coin22").src="./IMG/coin/skaicius.png";
+
+        data22.value = '';
+        document.getElementById("coin22").src="./IMG/coin/loading.png";
+
+        setTimeout(function(){
+            document.getElementById("coin22").src="./IMG/coin/skaicius.png";
+            data22.value = 'Metus moneta, iskrito skaicius';
+        }, 1000);
+        
+
     }
 }
 
