@@ -176,57 +176,117 @@ function coin2Click() {
 
 function dice1Click() {
     if (Math.floor(Math.random() * 6 + 1) == 1) {
-        data11.value = 'Ridenus kauliuka, issirito vienas';
         console.log('vienas');
-        document.getElementById("kauliukas11").src="./IMG/dice/1-vienas.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito vienas';
+            document.getElementById("kauliukas11").src="./IMG/dice/1-vienas.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 2) {
-        data11.value = 'Ridenus kauliuka, issirito du';
         console.log('du');
-        document.getElementById("kauliukas11").src="./IMG/dice/2-du.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito du';
+            document.getElementById("kauliukas11").src="./IMG/dice/2-du.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 3) {
-        data11.value = 'Ridenus kauliuka, issirito trys';
         console.log('trys');
-        document.getElementById("kauliukas11").src="./IMG/dice/3-trys.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito trys';
+            document.getElementById("kauliukas11").src="./IMG/dice/3-trys.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 4) {
-        data11.value = 'Ridenus kauliuka, issirito keturi';
         console.log('keturi');
-        document.getElementById("kauliukas11").src="./IMG/dice/4-keturi.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito keturi';
+            document.getElementById("kauliukas11").src="./IMG/dice/4-keturi.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 5) {
-        data11.value = 'Ridenus kauliuka, issirito penki';
         console.log('penki');
-        document.getElementById("kauliukas11").src="./IMG/dice/5-penki.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito penki';
+            document.getElementById("kauliukas11").src="./IMG/dice/5-penki.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 6) {
-        data11.value = 'Ridenus kauliuka, issirito sesi';
         console.log('sesi');
-        document.getElementById("kauliukas11").src="./IMG/dice/6-sesi.png";
+        data11.value = '';
+
+        document.getElementById("kauliukas11").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data11.value = 'Ridenus kauliuka, issirito sesi';
+            document.getElementById("kauliukas11").src="./IMG/dice/6-sesi.png";
+        }, 1000);
     }
 }
 
 function dice2Click() {
     if (Math.floor(Math.random() * 6 + 1) == 1) {
-        data22.value = 'Ridenus kauliuka, issirito vienas';
         console.log('vienas');
-        document.getElementById("kauliukas22").src="./IMG/dice/1-vienas.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito vienas';
+            document.getElementById("kauliukas22").src="./IMG/dice/1-vienas.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 2) {
-        data22.value = 'Ridenus kauliuka, issirito du';
         console.log('du');
-        document.getElementById("kauliukas22").src="./IMG/dice/2-du.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito du';
+            document.getElementById("kauliukas22").src="./IMG/dice/2-du.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 3) {
-        data22.value = 'Ridenus kauliuka, issirito trys';
         console.log('trys');
-        document.getElementById("kauliukas22").src="./IMG/dice/3-trys.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito trys';
+            document.getElementById("kauliukas22").src="./IMG/dice/3-trys.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 4) {
-        data22.value = 'Ridenus kauliuka, issirito keturi';
         console.log('keturi');
-        document.getElementById("kauliukas22").src="./IMG/dice/4-keturi.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito keturi';
+            document.getElementById("kauliukas22").src="./IMG/dice/4-keturi.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 5) {
-        data22.value = 'Ridenus kauliuka, issirito penki';
         console.log('penki');
-        document.getElementById("kauliukas22").src="./IMG/dice/5-penki.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito penki';
+            document.getElementById("kauliukas22").src="./IMG/dice/5-penki.png";
+        }, 1000);
     } else if (Math.floor(Math.random() * 6 + 1) == 6) {
-        data22.value = 'Ridenus kauliuka, issirito sesi';
         console.log('sesi');
-        document.getElementById("kauliukas22").src="./IMG/dice/6-sesi.png";
+        data22.value = '';
+
+        document.getElementById("kauliukas22").src="./IMG/dice/loading.png";
+        setTimeout(function(){
+            data22.value = 'Ridenus kauliuka, issirito sesi';
+            document.getElementById("kauliukas22").src="./IMG/dice/6-sesi.png";
+        }, 1000);
     }
 }
 
