@@ -57,9 +57,9 @@ function minus1Click() {
 
     if (rezultatas1 <= 0 && data222.value !== '') {
         alert("Laimejo: " + data222.value)
-    } //else if (data222.value === '') {
-        //alert("Laimejo: antrasis zaidejas")
-    //} 
+    } else if (data222.value === '' && rezultatas1 <= 0) {
+        alert("Laimejo: antrasis zaidejas")
+    } 
 }
 
 function minus2Click() {
@@ -74,9 +74,9 @@ function minus2Click() {
 
     if (rezultatas2 <= 0 && data111.value !== '') {
         alert("Laimejo " + data111.value)
-    } //else if (data111.value === ''){
-        //alert("Laimejo: pirmasis zaidejas")
-    //}
+    } else if (data111.value === '' && rezultatas2 <= 0){
+        alert("Laimejo: pirmasis zaidejas")
+    }
 }
 
 function plus1Cick() {
